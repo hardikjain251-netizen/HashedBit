@@ -7,10 +7,6 @@ import Confirmation from "./pages/Confirmation";
 
 function App() {
   return (
-    // <Routes> looks at the current URL and renders whichever
-    // <Route> below matches it - only one is shown at a time,
-    // which is what gives the app its "multi-page" feel while
-    // still being a single-page React application.
     <Routes>
       <Route path="/" element={<MovieList />} />
       <Route path="/movie/:id" element={<MovieDetails />} />
